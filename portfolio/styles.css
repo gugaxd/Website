@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(18, 18, 18))
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 10px;
+    padding: 40px 0;
+    background-color: #FFFFFF10;
+    color: white;
+}
+
+.textos{
+    padding: 15px;
+}
+
+.underline{
+    text-decoration: underline #ffa200;
+    text-underline-position: auto;
+    text-underline-offset: 10px;
+}
+
+.textos:hover{
+    color: #ffa200;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 150px auto;
+}
+
+#daredevil{
+    border-bottom: 2px solid #ffa200;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#spiderman{
+    border-bottom: 2px solid #ffa200;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mugiwara{
+    border-bottom: 2px solid #ffa200;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#daredevil:hover{
+    width: 17%;
+    height: 17%;
+    transition: 0.5s;
+}
+
+#spiderman:hover{
+    width: 17%;
+    height: 17%;
+    transition: 0.5s;
+}
+
+#mugiwara:hover{
+    width: 17%;
+    height: 17%;
+    transition: 0.5s;
+}
+
+.textbox{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    width: 800px;
+    text-align: center;
+    background-color: #FFFFFF20;
+    color: white;
+}
+
+.textbox p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
